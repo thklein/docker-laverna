@@ -26,7 +26,7 @@ Application also supports tasks. Adding tasks as easy as in GitHub.
 The image is available as a [trusted build on the docker hub](https://registry.hub.docker.com/u/thklein/laverna/):
 
 ```bash
-$ docker pull thklein/docker-laverna
+$ docker pull thklein/laverna
 ```
 
 ## Using the container
@@ -34,7 +34,7 @@ $ docker pull thklein/docker-laverna
 You can launch the container using the docker command line,
 
 ```bash
-$ docker run -d -p 80:80 thklein/docker-laverna
+$ docker run -d -p 80:80 thklein/laverna
 ```
 and finally point your webbrowser to:
 
